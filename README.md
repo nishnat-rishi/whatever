@@ -27,7 +27,7 @@ program = {
     }
   },
   lists = {
-    number_list = list:create{
+    numbers = list:create{
       pos = {x, y},
       dim = {x, y},
       -- other details
@@ -61,7 +61,7 @@ pages = {
       }
     },
     lists = {
-      numbers_list = {
+      numbers = {
         ...
       }
     }
@@ -86,7 +86,7 @@ pages = {
       }
     },
     lists = {
-      numbers_list = {
+      numbers = {
         pos = {
           x = window.x + 100
         }
@@ -102,7 +102,7 @@ pages = {
       }
     },
     lists = {
-      numbers_list = {
+      numbers = {
         pos = {
           x = 100
         }
