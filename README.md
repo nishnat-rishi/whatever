@@ -21,7 +21,7 @@ Suppose our program contains a button and a list.
 ```lua
 program = {
   buttons = {
-    add = {
+    add = button:create{
       pos = {x, y}, -- x, y are values.
       dim = {x, y}
     }
