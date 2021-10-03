@@ -130,4 +130,8 @@ anim:move{
 }
 ```
 
-It's really that simple. 
+It's really that simple.
+
+## Additional Notes
+
+- This application uses functions from [rxi/lume](https://github.com/rxi/lume).
